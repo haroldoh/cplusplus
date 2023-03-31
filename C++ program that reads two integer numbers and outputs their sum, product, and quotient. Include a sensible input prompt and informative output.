@@ -1,4 +1,4 @@
-C++ program that reads two integer numbers and outputs their sum, product, and quotient. Include a sensible input prompt and informative output. 
+//C++ program that reads two integer numbers and outputs their sum, product, and quotient. Include a sensible input prompt and informative output. 
 
 
 #include <iostream>
