@@ -1,0 +1,20 @@
+//Program to convert currency from UK pounds or sterling to US dollar.
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float usd;
+    const float pound = (1.1498);
+    
+    cout << "POUND TO USD CONVERSION \n" << endl << "----------------" << endl;
+    
+    cout << "Please put a number in POUNDS" << endl << "-----------------" << endl;
+    cin >> usd;
+    
+    
+    cout << "---------------" << endl << "CONVERSIOM INTO UNITED STATEDS DOLLARS" << endl << "USD: " << pound * usd << endl;
+    
+}
