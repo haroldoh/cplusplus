@@ -1,0 +1,58 @@
+Program that reads in two n x n matrixes from a file and after multiplying the matrices it outputs the resulting matrix on terminal. Recall that if the     n x n matrices are A and B, the resulting matrix would be C of size n x n.
+
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+    int n; 
+    int **A = new int*[n]; 
+    int **B = new int*[n]; 
+    int **C = new int*[n]; 
+    for (int i = 0; i < n; ++i) {
+        A[i] = new int[n];
+        B[i] = new int[n];
+        C[i] = new int[n];
+    }
+    int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;    
+    cout<<"Enter the number of row =";    
+    cin>>r;    
+    cout<<"Enter the number of column =";    
+    cin>>c;    
+    cout<<"Enter the first matrix element =\n";    
+    for(i=0;i<r;i++)    
+{    
+    for(j=0;j<c;j++)    
+{    
+    cin>>a[i][j];  
+}    
+}    
+    cout<<"Enter the second matrix element =\n";    
+    for(i=0;i<r;i++)    
+{    
+    for(j=0;j<c;j++)    
+{    
+    cin>>b[i][j];    
+}    
+}    
+    cout<<"Multiply of the matrix=\n";    
+    for(i=0;i<r;i++)    
+{    
+    for(j=0;j<c;j++)    
+{    
+    mul[i][j]=0;    
+    for(k=0;k<c;k++)    
+{    
+    mul[i][j]+=a[i][k]*b[k][j];    
+}    
+}    
+}    
+    for(i=0;i<r;i++)    
+{    
+    for(j=0;j<c;j++)    
+{    
+    cout<<mul[i][j]<<" ";    
+}    
+    cout<<"\n";    
+}    
+    return 0;  
+}    
