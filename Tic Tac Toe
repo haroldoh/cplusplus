@@ -1,4 +1,4 @@
-Tic-tac-toe that will enable you to write a complete program to play the well-known game tic-tac-toe. 
+//Tic-tac-toe that will enable you to write a complete program to play the well-known game tic-tac-toe. 
 
 #include <iostream>
 using namespace std;
