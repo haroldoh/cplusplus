@@ -1,0 +1,32 @@
+Program which can output of each the following numbers in a column (left justified and right justified) on the screen. Numbers are: 23.62 46.0 43.46443 100.1 98.98 (use setprecision, fixed, and setw).
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+
+double a, b, c, d, e;
+    
+    a = 23.62; b = 46.0; c = 43.46443; d = 100.1; e = 98.98;
+    
+    cout << "using setprecision \n";
+    cout << setprecision(2) << a << '\n';
+    cout << setprecision(2) << b << '\n';
+    cout << setprecision(2) << c << '\n';
+    cout << setprecision(2) << d << '\n';
+    cout << setprecision(2) << e << '\n';
+    
+    cout << "using fixed \n";
+    cout << a << '\n' << b << '\n' << c << '\n' << d << '\n' << e << '\n';
+    
+    cout << "using setw \n";
+    cout << setw(10) << a << "\n";
+    cout << setw(10) << b << "\n";
+    cout << setw(10) << c << "\n";
+    cout << setw(10) << d << "\n";
+    cout << setw(10) << e << "\n";
+    
+    return 0;
+}
