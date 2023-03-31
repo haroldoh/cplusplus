@@ -1,4 +1,4 @@
-Program which can output of each the following numbers in a column (left justified and right justified) on the screen. Numbers are: 23.62 46.0 43.46443 100.1 98.98 (use setprecision, fixed, and setw).
+//Program which can output of each the following numbers in a column (left justified and right justified) on the screen. Numbers are: 23.62 46.0 43.46443 100.1 98.98 (use setprecision, fixed, and setw).
 
 #include <iostream>
 #include <iomanip>
