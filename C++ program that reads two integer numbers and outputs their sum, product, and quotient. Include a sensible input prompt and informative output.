@@ -1,0 +1,25 @@
+C++ program that reads two integer numbers and outputs their sum, product, and quotient. Include a sensible input prompt and informative output. 
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    int m;
+    
+    cin >> n;
+    cin >> m;
+    
+    int sum = n + m;
+    int pro = n * m;
+    int quo = n / m;
+    
+    cout << "Sum of " << n << " and " << m << " is " << sum << endl;
+    cout << "Product of " << n << " and " << m << " is " << pro << endl;
+    cout << "Quotient of " << n << " and " << m << " is " << quo << endl;
+    
+    return 0;
+}
