@@ -1,4 +1,4 @@
-Program that reads in two n x n matrixes from a file and after multiplying the matrices it outputs the resulting matrix on terminal. Recall that if the     n x n matrices are A and B, the resulting matrix would be C of size n x n.
+//Program that reads in two n x n matrixes from a file and after multiplying the matrices it outputs the resulting matrix on terminal. Recall that if the     n x n matrices are A and B, the resulting matrix would be C of size n x n.
 
 #include <iostream>  
 using namespace std;  
